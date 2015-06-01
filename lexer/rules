@@ -1,4 +1,4 @@
-kw_begiin: begin;
+kw_begin: begin;
 kw_end:	   end;
 kw_if:	   if;
 kw_then:   then;
@@ -10,7 +10,7 @@ kw_and:	   and;
 kw_or:	   or;
 kw_not:	   not;
 
-identity:	<alph><identity'>|<alph>;
+id:		<alph><'id>|<alph>;
 unsign_int:	<num><unsign_int>|<num>;
 double_dlim:	\>= | \<= | \<\> | \:= | \\*;
 single_dlim:	+ | - | * | \; | ( | );
@@ -21,4 +21,4 @@ colon:		\:;
 slash:		/;
 alph:		a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z;
 num:		0|1|2|3|4|5|6|7|8|9;
-identity':	<alph><identity'>|<num><identity'>|<alph>|<num>;
+'id:		<alph><'id>|<num><'id>|<alph>|<num>;
